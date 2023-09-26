@@ -1,6 +1,7 @@
 import streamlit as st
 st.image('./pic/apakaearth.jpg')
-col1,col2=st.colums(2)
+
+col1,col2=st.columns(2)
 with col1 :
     st.header('Nonthakan jarpun')
 with col2 :
